@@ -1,7 +1,7 @@
 ---
 title: "Choose Your Own Project: Interstate Traffic Volume"
 subtitle: "edX HarvardX: PH125.9x - Data Science: Capstone"
-author: "Julide Karagöz"
+author: "Julide Guzin Karagöz"
 date: "December 2022"
 output:
   pdf_document:
