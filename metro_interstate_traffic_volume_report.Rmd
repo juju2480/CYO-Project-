@@ -550,18 +550,3 @@ plot(importance, top = 20)
 # Conclusion
 
 The objective of this project was to use machine learning models to predict the traffic volume at an American interstate and understand what features were important to explain the transit. In this report, we tried many models, created some new features, selected Caret's eXtreme Gradient Boosting (xgbTree) because of a tradeoff between RMSE and execution time and tunned its seven different hyperparameters. The final model obtained an RMSE of `r grid[8,2]` in the training set and `r grid[8,3]` in the test set. The most important feature to explain traffic is *hour*.
-
-# References
-
-https://en.wikipedia.org/wiki/Traffic_count
-
-https://archive.ics.uci.edu/ml/datasets/Metro+Interstate+Traffic+Volume#
-
-https://en.wikipedia.org/wiki/Interstate_94
-
-https://github.com/dreyco676/Anomaly_Detection_A_to_Z/blob/master/Anomaly%20Detection%20A%20to%20Z.pptx
-
-https://towardsdatascience.com/exploratory-data-analysis-8fc1cb20fd15
-
-https://www.kaggle.com/pelkoja/visual-xgboost-tuning-with-caret
-
